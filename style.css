@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.navbar {
+    height: 65px;
+    background-color: #0F1111;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 40px;
+    width : 110px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+    margin: 20px;
+}
+
+.logo {
+    background-image: url("https://m.media-amazon.com/images/G/01/gno/images/general/backup-logo_blue_2x._CB481604563_.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+}
+
+.border {
+    border: 2px solid transparent;
+    margin: 4px;
+    padding: 3px;
+}
+
+.border:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* box2 style */
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-address {
+    height: 40px;
+    width : 110px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+/* box3 search */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 10px;
+    margin-right: 40px;
+    padding: 0;
+}
+
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.search-input {
+    width : 100%;
+    font-size: 1rem;
+    text-align: start;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 174, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+
+/* box4 and box5 */
+.nav-signin{
+    margin: 25px;
+}
+
+.nav-return{
+    margin-left: 30px;
+}
+
+span {
+    font-size: 0.8rem;
+}
+
+.nav-second {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 35px;
+}
+
+.nav-cart {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+
+/* panel styling */
+
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p{
+    display: inline;
+    margin: 5px;
+}
+
+.panel-options {
+    width: 80%;
+    font-size: 0.9rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.borderr {
+    border: 2px solid transparent;
+    margin: 6px;
+    padding: 8px;
+}
+
+.borderr:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+
+.hero-section {
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG25/Home/2025/BAU/Feb/Valentines/BAU_PC_-_Romantic_candles._CB550907494_.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 85);
+}
+.box {
+    height: 370px;
+    width: 24%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-img1 {
+    background-image: url('img1.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 270;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box-img2 {
+    background-image: url('img2.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.box-img3 {
+    background-image: url('img3.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.box-img4 {
+    background-image: url('img4.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+/* section2 */
+
+.box-img5 {
+    background-image: url('img5.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.box-img6 {
+    background-image: url('img6.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.box-img7 {
+    background-image: url('img7.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.box-img8 {
+    background-image: url('img8.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: #ffffff;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #051527;
+    color: #ffffff;
+    border-top: 2px solid white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.foot-panel3 a {
+    color: #dddddd;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.foot-panel3 p {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.logof {
+    background-image: url("https://m.media-amazon.com/images/G/01/gno/images/general/backup-logo_blue_2x._CB481604563_.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 35px;
+    margin-right: 20px;
+}
